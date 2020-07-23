@@ -704,6 +704,227 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Updates
+--------------------------------------------------------------*/
+.updates .updates-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+
+.updates .updates-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+.updates .updates-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffb727;
+  margin-bottom: 10px;
+}
+
+.updates .updates-item h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.updates .updates-item ul {
+  padding-left: 20px;
+}
+
+.updates .updates-item ul li {
+  padding-bottom: 10px;
+}
+
+.updates .updates-item:last-child {
+  padding-bottom: 0;
+}
+
+.updates .updates-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
+}
+
+
+
+.ml-step-container{
+	width:100%;
+	padding:30px;
+}
+
+hr.ml-step-hr{
+	border-top: 1px solid #A7A8AA;
+	border-bottom:0px;
+	margin:10px 20px 0px 20px ;
+	
+}
+
+.ml-step-header.expanded > hr.ml-step-hr{
+	display:none;
+}
+
+.ml-step-header{
+	height:60px;
+	padding: 20px 15px 20px 15px ;
+	margin:0;
+	background:url(/assets/patterns/img/step-border-BG.png) repeat-y 0 0;
+	/*border-left:8px solid #D9D9D6;*/
+}
+
+.ml-step-header-elements{
+	
+	display:flex;
+}
+
+.ml-step-header-elements > h3{
+	
+	padding: 0px 5px 0px 5px ;
+	text-align: left;
+	color:#333333;
+	font-weight:normal;
+	font-size:16px;
+	text-decoration:none;
+	margin-top:-2px;
+	
+	
+}
+/* ====== expanded ======*/
+
+.expanded{
+   background:url(/assets/patterns/img/step-border-BG-active.png) repeat-y 0 0;
+   /*border-left:8px solid #007ABC;*/
+}
+.ml-step-header.expanded > .ml-step-header-elements > h3{
+	color:#007ABC;
+	text-decoration:none !important;
+	font-weight:bold;
+	
+}
+/* ====== completed ======*/
+
+.completed{
+	background:url(/assets/patterns/img/step-border-BG-complete.png) repeat-y 0 0 !important;;
+	/*border-left:8px solid #A4CE4E !important;*/
+}
+.ml-step-header.completed > .ml-step-header-elements > h3{
+	cursor:pointer;
+	color:#007ABC;
+	text-decoration:underline;
+}
+
+
+.ml-step-content {
+	/*border-left:8px solid #007ABC;*/
+	background:#ffffff url(/assets/patterns/img/step-border-BG-active.png) repeat-y 0 0;
+	padding: 0px 15px 0px 15px;
+}
+.ml-step-content-div{
+	padding: 5px 20px 25px 20px;
+}
+
+.ml-step-container .ml-step-content:last-child{
+	background:none;
+}
+
+.ml-step-container .ml-step-header:first-child {
+	
+  background:url(/assets/patterns/img/step-border-BG.png) no-repeat 0 15px ;
+  
+  background-size: 8px 100% !important;
+}
+
+.ml-step-container .ml-step-header.completed:first-child {
+  background:url(/assets/patterns/img/step-border-BG-complete.png) no-repeat 0 15px !important;
+  background-size: 8px 100% !important;
+}
+
+.ml-step-container .ml-step-header.expanded:first-child {
+  background:url(/assets/patterns/img/step-border-BG-active.png) no-repeat 0 15px ;
+  background-size: 8px 100% !important;
+}
+
+
+/*.ml-step-container .ml-step-header:last-child {
+  background:url(/assets/patterns/img/step-border-BG.png) no-repeat 0 0 !important;
+  background-size: 8px 50% !important;
+	
+}*/
+
+
+.last-child{
+ background:url(/assets/patterns/img/step-border-BG.png) no-repeat 0 0 !important;
+ background-size: 8px 50% !important;
+	
+}
+
+.last-child.completed{
+ background:url(/assets/patterns/img/step-border-BG-complete.png) no-repeat 0 0 !important;
+ background-size: 8px 50% !important;
+	
+}
+
+.last-child.expanded{
+ background:url(/assets/patterns/img/step-border-BG-active.png) no-repeat 0 0 !important ;
+ background-size: 8px 50% !important;
+	
+}
+
+
+/* ======== Step Style ====== */
+
+.ml-step-numbers {
+	
+	margin-left:-26px;
+	margin-right:10px;
+	margin-top:-8px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding:5px;
+    background: #d9d9d6;
+    font-size: 18px;
+	font-weight:bold;
+    color: #5E5E5E;
+    text-align: center;
+	display:inline-block;
+   
+}
+
+.ml-current-step {
+	background: #007ABC;
+	color: #ffffff;
+}
+
+.ml-completed-step {
+	padding:2px;
+	border:4px solid #A4CE4E;
+	background:#FFFFFF ;
+	color: #72991E;
+}
+
+.ml-completed-step::after {
+	
+	content:"\f00c";
+}
+/*--------------------------------------------------------------
 # My Services
 --------------------------------------------------------------*/
 .services .icon-box {
@@ -1040,9 +1261,7 @@ section {
   }
 }
 
-*--------------------------------------------------------------
-# Faq
---------------------------------------------------------------*/
+
 .faq {
   padding: 0;
 }
