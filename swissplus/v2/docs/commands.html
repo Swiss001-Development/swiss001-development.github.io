@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>SwissPlus Docs</title>
+<meta charset="UTF-8">
+<link rel='icon' href="assets/img/favicon.png" type='image/x-icon'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+
+<script data-ad-client="ca-pub-5856795489237966" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151866676-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151866676-1');
+</script>
+<style>
+
+.g {
+  color: grey;
+}
+
+.name {
+  color: #ff9900;
+  font-weight: bold;
+  text-align: left;
+  font-size: 16px;
+}
+
+.title {
+  color: green;
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+}
+
+.text {
+  font-weight: bold;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+body {font-family: "Lato", sans-serif}
+
+body {
+  color: white;
+  background-color: #0A0A0A;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="w3-top">
+<div class="w3-bar w3-black w3-card">
+<a class="w3-bar-item w3-button w3-padding-large w3-hide-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="   fa fa-bars"></i></a>
+<a href="#" class="w3-bar-item w3-button w3-right w3-padding-large w3-hide-small w3-hide-medium w3-text-red">COMMANDS</a>
+<a href="https://swissdev.team/swissplus/" class="w3-bar-item w3-button w3-right w3-padding-large w3-hide-small w3-hide-medium">HOME</a>
+<img src="assets/img/favicon.png" class="w3-bar-block w3-black w3-left" style="width:40px;margin-top:2px;margin-left:3px; margin-bottom:2px;">
+</div>
+</div>
+
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" style="margin-top:46px">
+<a href="/website/index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+<a href="#" class="w3-bar-item w3-button w3-padding-large w3-red" onclick="myFunction()">COMMANDS</a>
+</div>
+
+<div id="div" class="w3-center">
+<h1 style="font-size:30px; font-weight: bold;" class=" w3-padding-64">COMMAND LIST AND DOCUMENTATION</h1>
+<div class="w3-col w3-container w3-hide-large s12 m12 l0">
+<a onclick="show('fun')" style="width: 100%; text-align: center;" class="w3-round w3-button w3-padding-large w3-blue">FUN</a>
+<a onclick="show('music')" style="width: 100%; text-align: center;" class="w3-round w3-button w3-padding-large w3-blue">MUSIC</a>
+<a onclick="show('utility')" style="width: 100%; text-align: center;" class="w3-round w3-button w3-padding-large w3-blue">UTILITY</a>
+<a onclick="show('economy')" style="width: 100%; text-align: center;" class="w3-round w3-button w3-padding-large w3-blue">ECONOMY</a>
+<a onclick="show('moderation')" style="width: 100%; text-align: center;" class="w3-round w3-button w3-padding-large w3-blue">TEXT AND CUSTOM COMMANDS</a>
+<a onclick="show('information')" style="width: 100%; text-align: center;" class="w3-round w3-button w3-padding-large w3-blue">INFORMATION</a>
+<a onclick="show('misc')" style="width: 100%; text-align: center;" class="w3-round w3-button w3-padding-large w3-blue">MISCELLANEOUS</a>
+</div>
+<div class="w3-col w3-container w3-hide-small w3-hide-medium s0 m0 l12">
+<a onclick="show('fun')" class="w3-round w3-button w3-padding-large w3-blue">FUN</a>
+<a onclick="show('music')" class="w3-round w3-button w3-padding-large w3-blue">MUSIC</a>
+<a onclick="show('utility')" class="w3-round w3-button w3-padding-large w3-blue">UTILITY</a>
+<a onclick="show('economy')" class="w3-round w3-button w3-padding-large w3-blue">ECONOMY</a>
+<a onclick="show('moderation')" class="w3-round w3-button w3-padding-large w3-blue">TEXT AND CUSTOM COMMANDS</a>
+<a onclick="show('information')" class="w3-round w3-button w3-padding-large w3-blue">IMAGES</a>
+</div>
+</div>
+<div class="w3-col s12 m12 l2"><p></p></div>
+<div id="show" class="w3-col s12 m12 l8">
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">NAME</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">DESCRIPTION</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">USAGE</p></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">fact</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Displays a fact.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+fact</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">8ball</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Ask a question.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+8ball</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">topic</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Displays a topic.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+topic</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">translate</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Translates a sentence into a language.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+translate</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">slap</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Slap a user</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+slap {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">swiss</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Sends a random Swiss001 video.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+swiss</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">age</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">randomizes your age.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+age {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">weather</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Find out the weather.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+weather</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">hack</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">hack a user</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+slap {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">ship</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Friends? See your love life.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+ship something something2</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">locate</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Look for a place using Google Maps!</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+locate {place}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">bork</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">bork</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+bork {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">croissant</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">tasty</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+croissant</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">cat</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">cute cat pics</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+cat</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">dog</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Cut doggo pics</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+dog</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">metar</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Airport (ICAO) weather information</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+metar</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">fight</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">fight a user</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+fight {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">putin</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Thicc boi</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+putin</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">bean</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">bean cake</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+bean</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">poll</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Poll something</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+poll {question}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">asciify</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Turns text into asciify text</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+asciify {msg}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">tinyurl</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Shorten a URL</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+tinyurl {url}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+
+</div>
+<div class="w3-col s12 m12 l2"><p></p></div>
+<div id="fun" class="w3-col s12 m12 l8" style="display: none">
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">NAME</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">DESCRIPTION</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">USAGE</p></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">fact</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Displays a fact.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+fact</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">8ball</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Ask a question.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+8ball</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">topic</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Displays a topic.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+topic</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">translate</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Translates a sentence into a language.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+translate</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">slap</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Slap a user</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+slap {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">swiss</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Sends a random Swiss001 video.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+swiss</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">age</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">randomizes your age.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+age {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">weather</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Find out the weather.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+weather</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">hack</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">hack a user</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+slap {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">ship</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Friends? See your love life.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+ship something something2</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">locate</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Look for a place using Google Maps!</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+locate {place}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">bork</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">bork</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+bork {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">croissant</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">tasty</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+croissant</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">cat</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">cute cat pics</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+cat</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">dog</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Cut doggo pics</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+dog</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">metar</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Airport (ICAO) weather information</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+metar</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">fight</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">fight a user</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+fight {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">putin</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Thicc boi</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+putin</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">bean</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">bean cake</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+bean</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">poll</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Poll something</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+poll {question}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">asciify</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Turns text into asciify text</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+asciify {msg}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">tinyurl</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Shorten a URL</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+tinyurl {url}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+</div>
+<div id="music" class="w3-col s12 m12 l8" style="display: none">
+  <div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">NAME</p></div>
+  <div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">DESCRIPTION</p></div>
+  <div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">USAGE</p></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">leave</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Leaves voice channel and resets queue.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+leave</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">loop</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Loops current song.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+loop</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">music</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">get the settings for the music in this server</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+music or +musicsettings</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">nowplaying</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Show's what song is currently playing.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+nowplaying or +np</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">pause</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Pauses music currently playing.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+pause</div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">play</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Play a music of your choice.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+play (song,url)</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">queue</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Show's the queue.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+queue</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">resume</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Resumes the current music.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+resume</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">skip</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Skips to the next song in the queue.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+skip</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  <div class="w3-col w3-container s12 m4 l3"><p class="name">volume</p></div>
+  <div class="w3-col w3-container s12 m4 l5"><p class="text">Change the volume to a specfic value.</p></div>
+  <div class="w3-col w3-container s12 m4 l4"><p class="text g">+volume (number)%</p></div>
+  <div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+  </div>
+<div id="utility" class="w3-col s12 m12 l8" style="display: none">
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">NAME</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">DESCRIPTION</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">USAGE</p></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">botinfo</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Info about bot.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+botinfo</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">ping</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Bot's latency</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+ping</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">userinfo</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">User information</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+userinfo {user}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">level-roles</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Displays the roles you get when you hit a certain rank.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+level-roles</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">covid</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Get the latest information about the CoronaVirus.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+covid</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+
+</div>
+<div id="economy" class="w3-col s12 m12 l8" style="display: none">
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">NAME</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">DESCRIPTION</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">USAGE</p></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">balance</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Shows current balance of coins left.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+balance (user)</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">work</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Work for coins.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+work</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">coinflip</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Flip the coin.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+coinflip</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">daily</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Get your daily coins.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+daily</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">openaccount</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Make a bank account.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+openaccount</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">earnamtmax</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Set the maximum amount a user can earn through the earning methods.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+earnamtmax [maxamt]</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+</div>
+<div id="moderation" class="w3-col s12 m12 l8" style="display: none;">
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">NAME</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">DESCRIPTION</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">USAGE</p></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">drunkify</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">DrUnKiFy yOuR MeSsAgE.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+drunkify {msg}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">encrypt</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Encrypt a message if your James Bond.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+encrypt {msg}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">decrypt</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Decrypts an eccrypted message.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+decrypt {msg}</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">message</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Locate and re-direct to a message.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+message {message-id)</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">brandon</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">sexi aaaaaa</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+brandon</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">nerdoron</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">more like geekeron</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+nerdoron</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">hash</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Communism boi</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+hash</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">quingirl</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Dayyum she sexi</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+quingirl</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">ian</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Supreme leader</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+ian</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">anish</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">boo</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+anish</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">ifmg</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">kewl guy</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+ifmg</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">slav</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Slav do be waddling</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+slav</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+</div>
+<div id="information" class="w3-col s12 m12 l8" style="display: none;">
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">NAME</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">DESCRIPTION</p></div>
+<div class="w3-col w3-hide-small w3-container s0 m4 l4"><p class="title">USAGE</p></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">flightsim</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Show's a FlightSim pic from: r/flightsim</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+flightsim</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">fsx</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Show's stuff about fsx</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+fsx</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">meme</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Meme time.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+meme</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">news</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Aviation news information.</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+news</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+<div class="w3-col w3-container s12 m4 l3"><p class="name">swissbot</p></div>
+<div class="w3-col w3-container s12 m4 l5"><p class="text">Swiss001 server memes</p></div>
+<div class="w3-col w3-container s12 m4 l4"><p class="text g">+swissbot</p></div>
+<div class="w3-col s12 m12 l12"><hr style="border-color: grey"></div>
+
+</div>
+
+
+<footer class="w3-container w3-padding-32 w3-center w3-xlarge">
+<p class="w3-small">Copyright © 2020 Miguel#2250 - All rights reserved.</p>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+  function show(param_div_id) {
+    document.getElementById('show').innerHTML = document.getElementById(param_div_id).innerHTML;
+  }
+</script>
+</body>
+</html>
