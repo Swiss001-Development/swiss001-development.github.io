@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>type</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lato:wght@400;900&display=swap" rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src="utils.js"></script>
+  <script src="elements.js"></script>
+</head>
+<body>
+  <div class="page start">
+    <h1>How fast can you CODE?</h1>
+    <p>Everybody can find out how fast they can type, but no program has dared to venture to see how fast you can <strong>code</strong>! People say I code fast, but does typing help as well? If you use this program twice a week, your typing speed (and coding speed) will improve by at least 10 WPM!</p>
+
+    <button class="start-btn">Start (Enter)</button>
+    
+    <div class="records">
+      <h1>Records</h1>
+      <div>WPM record: <span class="wpm-r"></span></div>
+      <div>Accuracy record: <span class="acc-r"></span></div>
+    </div>
+
+    <a href="leaderboard.html">Leaderboard</a>
+  </div>
+
+  <div class="page type hide">
+    <div class="text"></div>
+
+    <div class="hide capslock">Caps lock is on!</div>
+  </div>
+
+  <div class="page results hide">
+    <h1>Results</h1>
+    <p>Great job! You can go take a 1-minute break to relax your fingers before doing another test!</p>
+    <div><strong>WPM</strong> <span class="wpm">0</span> <span class="new-wpm hide">New Record!</span></div>
+    <div><strong>Accuracy</strong> <span class="accuracy">0</span> <span class="new-acc hide">New Record!</span></div>
+
+    <button class="restart">Retry (Enter)</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="ui.js"></script>
+</body>
+</html>
