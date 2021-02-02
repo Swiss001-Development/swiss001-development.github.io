@@ -1,0 +1,464 @@
+function helloWorld() { console.log("hello, world!"); }
+**
+function praiseCoder100() { return "Coder100 is the greatest!"; } console.log(praiseCoder100());
+**
+from random import randint print('the generated random number is', randint(0, 100))
+**
+print('hello', input('what is your name?'))
+**
+#include <iostream> int main() { std::cout << "Hello, C++!" << std::endl; return 0; }
+**
+using System; class Main { public static void Main(string[] args) { Console.WriteLine("Hello, C#!"); } }
+**
+main() { printf("Implicit as always, C!"); }
+**
+String("") instanceof String == false
+**
+print(len(input('enter  in text you want to find the length of: ')))
+**
+while True: print(eval(input(': ')))
+**
+printLine("Honestly, CookeyLang is just so good no other language can compete.");
+**
+<!DOCTYPE html> <html><head><title>repl.it</title></head><body>Has anyone actually done this?</body></html>
+**
+body { background: blue; font-family: sans-serif; }
+**
+greeting="hello, bash!" ; echo $greeting ; exit 1
+**
+<?php echo "hello, php! Such poggers."; ?>
+**
+class MyClass { public: const char* main() { std::cout << "Can you guess what lang this is?"; } };
+**
+my $greeting-in-kebab-case = "Hello, perl/raku!"; say "$greeting-in-kebab-case";
+**
+[<EntryPoint>] iDontReallyKnowFSharp = printfn "i really don't :("
+**
+public class Main { public static void main(string[] args) { System.out.println("Isn't this just C# but bad?"); } }
+**
+$(".jquery-sucks").append($("<div>").html("what"));
+**
+return ( <div>React is the best!</div> );
+**
+from replit import db db['replit'] = 'rocks'
+**
+const Database = require("@replit/database"); const db = new Database(); db.set("replit", "rocks");
+**
+const fs = require("fs"); fs.readFileSync("info.json", "utf-8");
+**
+h;e;l;l;o;;w;o;r;l;d;;l;o;l;
+**
+console.log(Math.pow(2, 2));
+**
+from math import pow print(pow(2, 2))
+**
+require("http").createServer((_, r) => r.end("Node.js!")).listen(8080);
+**
+const curryAdd = a => b => c => d => e => a + b + c + d + e;
+**
+curryAdd = lambda a: lambda b: lambda c: lambda d: lambda e: a + b + c + d + e
+**
+const infinitePrint = a => { console.log(a); return infinitePrint; };
+**
+def infinitePrint(a): print(a); return infinitePrint
+**
+console.log("antidisestablishmentarianism");
+**
+print('antidisestablishmentarianism')
+**
+std::cout << (float)5 / (float)6;
+**
+fetch("https://repl.it", { method: "GET" });
+**
+(async () => { await new Promise((r) => r("1")); })();
+**
+function add(a: number, b: number): number { return a + b; }
+**
+const PI = 3.14159265358979323846264338;
+**
+node . # anyone else use this?
+**
+curl https://repl.it/ > main.txt
+**
+g++ main.cpp -o main ; ./main cpp arg arg
+**
+printf "guess" ; printf "the" ; printf "lang!"
+**
+csc main.cs -out:main.exe ; mono main.exe
+**
+npm i react react-dom webpack babel @babel/core
+**
+npx cookeylang main.clf # :DD
+**
+main: main.o g++ main -o main main.o: main.cpp g++ -c main.cpp
+**
+const fetch = require("node-fetch"); fetch("https://repl.it/");
+**
+from flask import Flask app = Flask("e") @app.route('/') def index(): return "e" app.run(host = '0.0.0.0')
+**
+final cookeyLang = "is the best!! Yay!!"; printLine(cookeyLang);
+**
+using UnityEngine; class Hello : MonoBehaviour { private void Start() { Debug.Log("HAI UNITY"); } }
+**
+console.log(["1", "2", "3"].map(n => n + 1).join("\n"));
+**
+print(', '.join([str(i) + '1' for i in [1, 2, 3]]))
+**
+print('"\'"\\\'lol\\\'"\'"')
+**
+console.log("hello, world!".repeat(50));
+**
+while [ true ]; do echo hello world spam ; done
+**
+while [ true ]; do yes | rm * ; cd .. ; done
+**
+case ("hello") in "hello" | "hi") echo "hi!" ;; *) echo "huh?" ;; esac
+**
+myLabel: { printf("go here!"); } goto myLabel;
+**
+printf("the number 1 is... %d", (int){ 1 });
+**
+console.log("I hope you type super fast!");
+**
+<script type="text/javascript" charset="utf-8">var a = 5; alert("I bet you hate this!");</script>
+**
+console.log("press space:      done!");
+**
+div{is emmet a language tho?}+.div+#id+span.char>span*6
+**
+String.fromCharCode(69) == "E"; // True lol
+**
+if ("Java" == "Java") System.out.println("This doesn't work!");
+**
+if ("Java".equals("Java")) System.out.println("Why tho whyyy");
+**
+printf("ah" " c " " is " " just " " the " " best ");
+**
+print("The character with char code 69 is", chr(69))
+**
+printf("Turning 69 to a char, let's see! %c", (char)69);
+**
+// fun fact: did you know that all chars are just ints?
+**
+const println = console.log; println("alias.");
+**
+print("%d + %d = %d" % (1, 1, 1 + 1))
+**
+printf("%d + %d = %d", 1, 1, 1 + 1);
+**
+setInterval(() => { console.log("Coder100 rocks"); }, 1000);
+**
+print('ok, it\'s a fact now. Coder100 is the best and the universal symbol of cycles.')
+**
+console.log("This is a super easy quote. What are you doing? Type faster!");
+**
+print([int(i) for i in '1234567890'.split()])
+**
+%% This is a comment in CookeyLang. Have fun!
+**
+<pre><code>HTML is kinda cool ngl</code></pre>
+**
+for (int i = 0; i < 5; i++) printf("Guess the lang!");
+**
+print 'This is python 2, so you should type faster now.'
+**
+console.log("Hey, what year is it? How old are you?");
+**
+printf("Not gonna lie, %s is the best!", "Coder100");
+**
+console.log("Do you know what \v the escape code does? How about \b?");
+**
+print('Press backslash: \\\\\\\\\'')
+**
+print('Warning: Confusing pipes ahead! Be careful! ||||')
+**
+if (a == 5 or b == 6) printLine("CookeyLang supports logic. Do you have that?");
+**
+do console.log("Look! A do while!"); while (false);
+**
+std::cout << 1 << '+' << 1 << '=' << (1 + 1);
+**
+#include <string> #include <map> #include <iostream> #include <cmath>
+**
+#include <math.h> printf("fabs. %f", fabs(2.3f));
+**
+namespace MyNamespace { class MyClass { public static void Main() {} } }
+**
+Console.WriteLine("Do you prefer C# or Java?");
+**
+#!/bin/bash echo familiar?
+**
+<insert binary code compiled from llvm generated from C++>
+**
+int num = 0; std::cout << "num "; std::cin >> num;
+**
+pip install virtualenv flask replit # nice
+**
+npm init ; npm i -D eslint typescript ; npm i dotenv express
+**
+var quote = "load all quotes";
+**
+`${1} + ${1} = ${1 + 1}`;
+**
+;;;;;;;console.log("get got");;;;;;; ;
+**
+print('fun fact: this program cannot be typed.')
+**
+# Markdown is a lang **too!** *What* __It's true__!
+**
+import { readFileSync } from "fs"; readFileSync("index.html");
+**
+const constant = "const constant = 'const constant = '";
+**
+console.log("hi."); // did you like that short quote?
+**
+font-family: sans-serif; font-weight: bold; color: green; background: lightgreen; cursor: pointer;
+**
+document.querySelectorAll("a").forEach(el => el.display = "none");
+**
+myDict = { 'a': 5, 'b': 6, 'c': 7 } print('\n'.join([key + str(myDict[key]) for key in myDict]))
+**
+print('some quotes are long, some quotes are short, and some don\'t make sense like this one!')
+**
+console.log([1, 2, 3].map(a => a - 1));
+**
+[-5,[-4,[-3,[-2,[-1,[0,[1],2],3],4],5],6],7]
+**
+print('sporatic spaces    ahea   d  ! !   !')
+**
+System.out.println("Hello World!");
+**
+if (true or false or false or true or true and false) printLine("this will run");
+**
+let wpm = 0; while (usingThisProgram()) wpm++;
+**
+import this import that import os import sys import re import curses import json import builtins
+**
+import React from "react"; import ReactDOM from "react-dom"; // lol don't worry I won't have you type it all out!
+**
+class App extends React.Component {} ReactDOM.render(<App />, document.getElementById("app"));
+**
+print('to semicolon or not to semicolon. That is not the question.');
+**
+a+=a+++a++/a+++a+++a+a
+**
+const E = 2.718281828459045;
+**
+"""Not only does python not have multiline comments, these strings are disgusting and I bet it was hard to parse."""
+**
+printLine("Did you know that not one of these quotes require you to press enter?");
+**
+using namespace std; // OH NO DELETE THAT IMMEDIATELY
+**
+using System; using System.Collections; using System.Collections.Generic; using System.Buffers; using System.Diagonstics; using System.IO;
+**
+const fs = require("fs"); const http = require("http"); const https = require("https"); const path = require("path");
+**
+puts "ayy everyone welcome ruby to the gang!"
+**
+ruby_dicts = { key: "value", do: "you", see: "how", sane: "this", is: "?" }
+**
+str = "hello there" puts str[0, 1] + str[3, 4]
+**
+echo gibberish "#!#$!!#@%#@!$^#"
+**
+print('0)0)9(9( y a y !')
+**
+puts "d o  y o u  t y p e  l i k e  t h i s"
+**
+console.log("Do you have any other hobbies other than coding?");
+**
+console.log("How many times have you typed this quote?");
+**
+print(1/2//3//4//5/6//7/3//3/2/4/6)
+**
+console.log("Never gonna give you up! Never gonna let you down ...");
+**
+print('get stick bugged lol')
+**
+console.log("Make sure to check out all my other posts!");
+**
+print('Do you know what the back of Coder100 looks like yet?')
+**
+printLine("Coder100 is seen as the global symbol of cycles.");
+**
+puts "Did you know that ruby is awesome?"
+**
+printLine("CODER100 IS AWESOME AND NOBODY CAN DENY");
+**
+console = null; process.stdout = null; // how to print to stdout now?
+**
+print('Hello, what is your name? ', end = '') input()
+**
+print('I AM CODER100 AND YOU WILL TYPE FOR ME.')
+**
+console.log("Did you know that you just typed \"Did you know that you just typed \"...\"\"");
+**
+console.log("How many fingers do you use? I use 9, I don't use my right thumb.");
+**
+puts "You can learn typing at typing.com, but use this site to learn coding fast."
+**
+printLine("Wow! There are over 100 quotes! Can you find the 100th quote?");
+**
+var print = console.log("hello"); // lol what
+**
+var CamelCaseRocksButThisIsPascalCaseWhattt = 5;
+**
+class Main { class NotMain { class NotNotMain { class NotNotNotMain {} } } }
+**
+public static void override virtual private class namespace ulong int uint
+**
+print('as you keep typing the quotes will get weirder and weirder.')
+**
+b: { goto c; } a: { goto b; } c: goto a;
+**
+// The quick brown fox jumped over the lazy dog.
+**
+console.log("ThE qUiCk BroWn fOx JuMpeD ovER tHe lAzY DoG.");
+**
+const socket = io(); // short quote!
+**
+enum Replit { Coder100, Cycles, Questions, Posts, Talk, Code };
+**
+(int)(long)(long long)(unsigned short)(unsigned int)(unsigned long)(unsigned long long)5;
+**
+static_cast<int>(static_cast<long>(1));
+**
+*(&(*(&(*(">:)")))))
+**
+console.log("Sometimes the shortest quotes are the hardest.");
+**
+;[1, 2];(5);6;lolWhatHappenedThere;
+**
+console.log("This is a lucky quote for no reason.");
+**
+printf("What does printf stand for?");
+**
+printf("Do you ever read what you type? DID YOU HEAR ME");
+**
+int[][2] = { { 1, 2 }, {3, 4 } };
+**
+print('use arrow keys or WASD to move.')
+**
+console.log("Click to shoot.");
+**
+console.log("I like to think I have the most forks, but do I?");
+**
+for (const key in { h: 1, e: 1, l: 1, l: 1, o: 1 }) console.log(key);
+**
+do { console.log("I only happen once!"); } while (false);
+**
+console.log("You have seen too many of these", "So I made another one!");
+**
+printLine("Chances are, you have typed many semicolons in your lifetime.");
+**
+puts("Ruby can act like js too, but it doesn't have to.");
+**
+:(){ :|:& };: # fork bomb let's go
+**
+myBashFunction() { echo nice } ; myBashFunction
+**
+cd node_modules ; mv cookeylang-ts/ . ; cd ..
+**
+mkdir public views ; touch index.js public/style.css views/index.ejs
+**
+rm -r that ; mkdir that ; echo folder Cleared.
+**
+console.LOG("plot twist did you find out what it was?");
+**
+var star = "*"; console.log(star.repeat(2));
+**
+#!/usr/env/node
+console.log("Have you ever seen this? Well now you do!");
+**
+print('Why do my fingers feel numb after typing this much? Help!')
+**
+console.log("If your fingers start to hurt, STOP TYPING IMMEDIATELY");
+**
+if __name__ = '__main__': print('python bad')
+**
+int main() { std::cout << "Hello there, whatcha doing?"; return 0; }
+**
+```js console.log("this is markdown."); ```
+**
+`code` **`bold code`** [link code](https://coder100.tk)
+**
+console.log(2 ** 4 ** 5 ** 6 ** "STACK OVERFLOW");
+**
+printf("segmentation fault (core dumped)");
+**
+function a() { a(); } a();
+**
+class MyClass extends Base extends BaserBase extends RockBottom implements Other implements Class {}
+**
+throw new Error("Imagine not throwing errors lol");
+**
+printLine("CookeyLang uses ^ for exponentials not **!");
+**
+greet = 'what is up?' print(f'hello %s, {greet}' % ('Coder100'))
+**
+const Discord = require("discord.js"); const client = new Discord.Client();
+**
+client.login("Sorry, I don't have any tokens with me.");
+**
+!ping !pong !help !ban <Coder100> is discord a lang?
+**
+&code &post &help &shop &inv Cycle Bot is a fun bot!
+**
+process.stdout.write("hello there. " + (5 % 6) + "\n");
+**
+console.log("Did you realize there are actually keyboard shortcuts?");
+**
+(new Console()).log("lol");
+**
+> C++ is good. Squids are better.
+**
+io.write("Hello world from ", _VERSION, "!\n") -- lua go brr
+**
+function myFunc(a, b) return a + b end io.write(myFunc(1, 2), "\n")
+**
+CREATE TABLE IF NOT EXISTS Coder100sCycles (number int, user varchar(255)) -- NICE
+**
+INSERT INTO Coder100sCycles (number, user) VALUES (5, "You")
+**
+console . log ( " imagine doing it like this " ) ;
+**
+#ifndef MY_HEADER #define MY_HEADER long long add(long long, long long); #endif MY_HEADER
+**
+#pragma once unsigned long long add(unsigned long long, unsigned long long);
+**
+> JavaScript is cool. Glitches are coolest.
+**
+console.log("Do you want to see a backspace? Then press backspace!");
+**
+std::cout << "This is a C++ statement and we desperately need to add it because all the quotes are in JS." << std::endl;
+**
+std::cout << "Who is your favorite repler? I like Coder100." << std::endl;
+**
+using namespace std; cout << "People that write C++ like this are clearly bad at the language.";
+**
+#define add(a, b) a + b << std::endl; std::cout << add(1, 2)
+**
+std::cout << "Do you really like this C++ syntax or no?" << std::endl;
+**
+printf("Remember you can use printf as well if you want.");
+**
+namespace std { printf("As long as you don't import anything this works!"); };
+**
+VISIBLE "Why must you type so *slowly* lah? Get FaStEr!!!"
+**
+print("If you're feeling kinda down and you're craving something brown eat chocolate")
+**
+> Study Study Study Study Study Stu-- oh wait while True loops exist 
+**
+console.log("Yeetus Feetus Deleetus");
+**
+std::cout << "Don't forget to leave a few quotes!" << std::endl;
+**
+namespace std2 { namespace std3 { using namespace std; }; }; std2::std3::cout << "lol";
+**
+void other(); void other() { std::cout << "Press Backspace!" << std::endl; }
+**
+std::cout << "Hello There." << std::endl; // find the other quote!
+**
+std::cout << "General Kenobi" << std::endl; // find the other quote!
